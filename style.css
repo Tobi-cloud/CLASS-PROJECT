@@ -1,6 +1,85 @@
 body{
-    background: url('class.jpg') no repeat;
+    background: url('campus.jpg');
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.style
+{
+    background-color: brown;
+    /*margin: 0%*/;
+    overflow: hidden;
+}
+
+.style a
+{
+    float: left;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.style a:hover
+{
+    background-color: cadetblue;
+    color: black;
+}
+
+.style a.active
+{
+    background-color: black;
+    color: cadetblue;
+    font-style: bold;
+}
+.pix-box
+{
+    box-shadow: 0px 3px;
+}
+.product
+{
+    float: left;
+    width: 20%;
+    height: 350px;
+    border: #00f solid;
+    margin-top: 70px;
+    box-shadow: 10px 20px lightblue;
+}
+.product1
+{
+    float: left;
+    margin: 50px;
+    width: 20%;
+    height: 350px;
+    border: #888 solid;
+    margin-top: 70px;
+    box-shadow: #888888;
+}
+.product2
+{
+    float: left;;
+    width: 20%;
+    height: 350px;
+    border: red solid;;
+    margin-top: 70px;
+    box-shadow: pink;
+}
+.product3
+{
+    float: left;
+    margin: 50px;
+    width: 20%;
+    height: 350px;
+    border: lime solid;
+    margin-top: 70px;
+    box-shadow: blueviolet;
+}
+.container
+{
+    margin: 50px;
+    background-position: right;
+}
+
+
+
 
